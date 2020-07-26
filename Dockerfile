@@ -1,4 +1,4 @@
-FROM openjdk:9-b130-jdk
+FROM frolvlad/alpine-oraclejdk8:slim
 VOLUME /tmp
 ADD target/*.jar app.jar
 RUN sh -c 'touch /app.jar'
