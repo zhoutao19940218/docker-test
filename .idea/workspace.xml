@@ -15,9 +15,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="641d2949-0ab5-4019-93e3-d31cf382707d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="641d2949-0ab5-4019-93e3-d31cf382707d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +56,7 @@
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="docker-test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
@@ -66,6 +64,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="docker-test" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="8090:8080" />
+          <option name="containerName" value="docker-test" />
+          <option name="entrypoint" value="" />
+          <option name="publishAllPorts" value="true" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean package -U -DskipTests" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595597286133</updated>
       <workItem from="1595597290354" duration="4012000" />
-      <workItem from="1595752693562" duration="2625000" />
+      <workItem from="1595752693562" duration="3922000" />
     </task>
     <servers />
   </component>
@@ -95,10 +115,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="660" y="257" key="#Docker" timestamp="1595603491310">
+    <state x="660" y="257" key="#Docker" timestamp="1595765188729">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
-    <state x="660" y="257" key="#Docker/0.23.1792.1033@0.23.1792.1033" timestamp="1595603491310" />
+    <state x="660" y="257" key="#Docker/0.23.1792.1033@0.23.1792.1033" timestamp="1595765188729" />
+    <state x="582" y="97" key="#Dockerfile" timestamp="1595765960550">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="582" y="97" key="#Dockerfile/0.23.1792.1033@0.23.1792.1033" timestamp="1595765960550" />
     <state x="773" y="409" key="#Notifications" timestamp="1595646204863">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
@@ -107,22 +131,38 @@
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
     <state x="732" y="459" key="#Path_mapping/0.23.1792.1033@0.23.1792.1033" timestamp="1595603489723" />
-    <state width="1750" height="435" key="GridCell.Tab.0.bottom" timestamp="1595751853525">
+    <state width="1750" height="448" key="GridCell.Tab.0.bottom" timestamp="1595765850415">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
-    <state width="1750" height="435" key="GridCell.Tab.0.bottom/0.23.1792.1033@0.23.1792.1033" timestamp="1595751853525" />
-    <state width="1750" height="435" key="GridCell.Tab.0.center" timestamp="1595751853525">
+    <state width="1750" height="448" key="GridCell.Tab.0.bottom/0.23.1792.1033@0.23.1792.1033" timestamp="1595765850415" />
+    <state width="1750" height="448" key="GridCell.Tab.0.center" timestamp="1595765850415">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
-    <state width="1750" height="435" key="GridCell.Tab.0.center/0.23.1792.1033@0.23.1792.1033" timestamp="1595751853525" />
-    <state width="1750" height="435" key="GridCell.Tab.0.left" timestamp="1595751853524">
+    <state width="1750" height="448" key="GridCell.Tab.0.center/0.23.1792.1033@0.23.1792.1033" timestamp="1595765850415" />
+    <state width="1750" height="448" key="GridCell.Tab.0.left" timestamp="1595765850415">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
-    <state width="1750" height="435" key="GridCell.Tab.0.left/0.23.1792.1033@0.23.1792.1033" timestamp="1595751853524" />
-    <state width="1750" height="435" key="GridCell.Tab.0.right" timestamp="1595751853525">
+    <state width="1750" height="448" key="GridCell.Tab.0.left/0.23.1792.1033@0.23.1792.1033" timestamp="1595765850415" />
+    <state width="1750" height="448" key="GridCell.Tab.0.right" timestamp="1595765850415">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
-    <state width="1750" height="435" key="GridCell.Tab.0.right/0.23.1792.1033@0.23.1792.1033" timestamp="1595751853525" />
+    <state width="1750" height="448" key="GridCell.Tab.0.right/0.23.1792.1033@0.23.1792.1033" timestamp="1595765850415" />
+    <state width="1750" height="448" key="GridCell.Tab.1.bottom" timestamp="1595765180807">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state width="1750" height="448" key="GridCell.Tab.1.bottom/0.23.1792.1033@0.23.1792.1033" timestamp="1595765180807" />
+    <state width="1750" height="448" key="GridCell.Tab.1.center" timestamp="1595765180807">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state width="1750" height="448" key="GridCell.Tab.1.center/0.23.1792.1033@0.23.1792.1033" timestamp="1595765180807" />
+    <state width="1750" height="448" key="GridCell.Tab.1.left" timestamp="1595765180807">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state width="1750" height="448" key="GridCell.Tab.1.left/0.23.1792.1033@0.23.1792.1033" timestamp="1595765180807" />
+    <state width="1750" height="448" key="GridCell.Tab.1.right" timestamp="1595765180807">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state width="1750" height="448" key="GridCell.Tab.1.right/0.23.1792.1033@0.23.1792.1033" timestamp="1595765180807" />
     <state x="698" y="273" key="RollbackChangesDialog" timestamp="1595754399897">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
