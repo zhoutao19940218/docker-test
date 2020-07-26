@@ -17,7 +17,6 @@
   <component name="ChangeListManager">
     <list default="true" id="641d2949-0ab5-4019-93e3-d31cf382707d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
@@ -59,53 +59,6 @@
     <option name="SHOW_DIALOG" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="docker-test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="docker-test" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="docker-test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
@@ -122,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595597286133</updated>
       <workItem from="1595597290354" duration="4012000" />
+      <workItem from="1595752693562" duration="1497000" />
     </task>
     <servers />
   </component>
@@ -169,6 +123,10 @@
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
     <state width="1750" height="435" key="GridCell.Tab.0.right/0.23.1792.1033@0.23.1792.1033" timestamp="1595751853525" />
+    <state x="698" y="273" key="RollbackChangesDialog" timestamp="1595754399897">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="698" y="273" key="RollbackChangesDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1595754399897" />
     <state x="397" y="178" key="SettingsEditor" timestamp="1595751480414">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
@@ -177,6 +135,10 @@
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
     <state x="734" y="416" key="VCS.EditChangelistDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1595657772289" />
+    <state x="100" y="147" width="1592" height="833" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595754433844">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="100" y="147" width="1592" height="833" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1595754433844" />
     <state x="684" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595646686376">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
